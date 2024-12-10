@@ -8,6 +8,6 @@ sample code for Eluvio's ML services.
 There is also documentation of the format for providing "external"
 third party tags *to* Eluvio to be loaded into the content fabric.
 
-  * external tag format for video [API](docs/format-external-image-tags.md)
-  * external tag format for image [API](docs/format-external-asset-tags.md)
+  * external tag format for video [API](docs/format-external-video-tags.md)
+  * external tag format for image [API](docs/format-external-image-tags.md)
 
