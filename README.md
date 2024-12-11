@@ -38,16 +38,16 @@ There are three main content types for purposes of this documentation:
   * video
 
 Content objects all have tree-structured metadata, and may have parts
-(for videos), or additional files stored "in" a content object (such
+(for videos), and/or additional files stored "in" a content object (such
 as image assets).
 
 An index is a content object which indexes tag data stored on other
 content objects.  To perform a search, the iq of an index object is
-needed; the search will find content that is indexed on the index
-object.
+needed along with a search term; the search will find content matching the
+given term that is present in the index object.
 
 Videos are usually stored in their own content object (which can
-represent different streams, for example english or french audio.)
+have multiple streams, for example english or french audio.)
 
 In contrast, image assets are typically stored as "files" on (or in)
 another content object; for an image-based index this will be an image
@@ -56,9 +56,8 @@ both the "container" content object (iq) and the asset path within
 that content object.
 
 Objects are versioned, and a specific version of an object is referred
-to by an object hash, which starts with `hq__`. you may see references
-to specific versions of objects in API returns.  In most cases `hq__`
-are interchangeable with `iq__` where the former references a specific
-version of an object, and the latter represents the "latest" version
-of the object.
-
+to by an object hash, which starts with `hq__`. There are references
+to specific versions of objects in API returns.  When referring to
+content, in most cases `hq__` are interchangeable with `iq__` where
+the former references a specific version of an object, and the latter
+represents the "latest" version of the object.
