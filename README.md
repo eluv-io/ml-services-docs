@@ -15,7 +15,7 @@ third party tags *to* Eluvio to be loaded into the content fabric.
 
 ### Sample code
 
-See sample code [README.md](samples/README.md) for sample code.
+See sample code [README.md](sample/README.md) for sample code.
 
 ### Brief note about general concepts
 
