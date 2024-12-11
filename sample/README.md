@@ -8,7 +8,14 @@ Private key:
 
 `export PRIVATE_KEY=0x...`
 
-### Sample asset tag fetching
+### List of samples
 
-node retreive_image_tag.js
+Run a sample as:
+
+`node retreive_image_tag.js`
+
+These are the samples:
+  * `retrieve_tag_image.js` -- retreive the tags for an image
+  * `summary_image.js` -- summarize an image
+  * `vector_search_image.js` -- submit query against an image index
 
