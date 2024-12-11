@@ -14,8 +14,6 @@ async function getAssetTags(token, iq, assetPath) {
   });
 
   const response = await Fetch(url + "?" + params.toString(), {})
-  console.log(url)
-  console.log(response)
 
   if (response.status != 200 || response?.headers?.get("content-type") !== "application/json") return null
 
