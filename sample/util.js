@@ -41,9 +41,11 @@ async function getFabricToken(client, iq) {
 }
 
 const BASE_SEARCH_PATH = "https://ai.contentfabric.io/search"
+const BASE_SUMMARY_PATH = "https://ai-03.contentfabric.io/summary"
 
 module.exports = {
   getConfiguredClient,
   getFabricToken,
-  BASE_SEARCH_PATH
+  BASE_SEARCH_PATH,
+  BASE_SUMMARY_PATH
 }
