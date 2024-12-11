@@ -40,7 +40,10 @@ async function getFabricToken(client, iq) {
   return await client.GenerateStateChannelToken({ objectId: iq })
 }
 
+const BASE_SEARCH_PATH = "https://ai.contentfabric.io/search"
+
 module.exports = {
   getConfiguredClient,
-  getFabricToken
+  getFabricToken,
+  BASE_SEARCH_PATH
 }

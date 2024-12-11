@@ -3,8 +3,7 @@
 const Fetch = typeof fetch !== "undefined" ? fetch : require("node-fetch").default;
 
 const util = require('./util')
-
-const BASE_SEARCH_PATH= "https://ai.contentfabric.io/search"
+const BASE_SEARCH_PATH = util.BASE_SEARCH_PATH
 
 
 
