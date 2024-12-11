@@ -11,7 +11,7 @@ are created, and API endpoints are standardized across services.
 
 This API requires an authorization token.  There are many types of
 tokens, and generating the token is beyond the scope of this
-particular document.   See the [sample code](sample/summary_image.js)
+particular document.   See the [sample code](../sample/summary_image.js)
 for one way of generating a token locally.
 
 
