@@ -3,6 +3,10 @@
 This repository documents publically available endpoints and contains
 sample code for Eluvio's ML services.
 
+_VIDEO_
+  * retrieve video tag data [API](docs/api-video-tags.md)
+
+_IMAGE_
   * search image tag data [API](docs/api-search-asset.md)
   * retrieve image tag data [API](docs/api-image-tags.md)
   * summarize an image [API](docs/api-summarize-image.md)
