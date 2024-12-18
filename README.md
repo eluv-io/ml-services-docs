@@ -1,12 +1,17 @@
 ## Eluvio ML Services
 
 This repository documents publically available endpoints and contains
-sample code for Eluvio's ML services.
+sample code for Eluvio's ML services, as well as providing data
+interchange formats.
 
-_VIDEO_
+### APIs
+
+#### Video
+
   * retrieve video tag data [API](docs/api-video-tags.md)
 
-_IMAGE_
+#### Image
+
   * search image tag data [API](docs/api-search-asset.md)
   * retrieve image tag data [API](docs/api-image-tags.md)
   * summarize an image [API](docs/api-summarize-image.md)
