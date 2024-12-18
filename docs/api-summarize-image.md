@@ -44,5 +44,6 @@ The API returns a JSON object with three keys:
 {
   "summary": "Jessica Berman participates in an interview or press conference, sitting at a table with a black backdrop featuring various logos including Mastercard, Nike, and Delta.",
   "title": "Jessica Berman Speaks at Official Event",
-  "hashtags": ["#Interview", "#PressConference", "#BusinessEvent"]}
+  "hashtags": ["#Interview", "#PressConference", "#BusinessEvent"]
+}
 ```
