@@ -11,8 +11,11 @@ are created, and API endpoints are standardized across services.
 
 This API requires an authorization token.  There are many types of
 tokens, and generating the token is beyond the scope of this
-particular document.   See the [sample code](../sample/vector_search_image.js)
-for one way of generating a token locally.
+particular document.
+
+There is [sample code](../sample/vector_search_image.js) for this API
+which shows [one way](../sample/util.js#L39) one way of generating a
+token locally.
 
 ## API
 
