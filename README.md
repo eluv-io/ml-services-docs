@@ -9,6 +9,7 @@ interchange formats.
 #### Video
 
   * retrieve video tag data [API](docs/api-video-tags.md)
+  * search video tag data [API](docs/api-search-video.md)
 
 #### Image
 
