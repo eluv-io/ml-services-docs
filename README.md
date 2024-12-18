@@ -16,6 +16,8 @@ interchange formats.
   * retrieve image tag data [API](docs/api-image-tags.md)
   * summarize an image [API](docs/api-summarize-image.md)
 
+#### External tag format
+
 There is also documentation of the format for providing "external"
 third party tags *to* Eluvio to be loaded into the content fabric.
 
