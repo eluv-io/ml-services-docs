@@ -17,7 +17,7 @@ for one way of generating a token locally.
 
 ## API
 
-The endpoint is: `<base>/q/{iq}/rep/image_summarizei`
+The endpoint is: `<base>/q/{iq}/rep/image_summarize`
 
 The HTTP operation is `GET`
 
