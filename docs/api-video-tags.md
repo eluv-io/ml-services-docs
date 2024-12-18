@@ -17,7 +17,7 @@ tokens, and generating the token is beyond the scope of this
 particular document.
 
 There is [sample code](../sample/retrieve_tag_video.js) for this API
-which shows [one way](../sample/util.js#L39) one way of generating a
+which shows [one way](../sample/util.js#L39) of generating a
 token locally.
 
 
