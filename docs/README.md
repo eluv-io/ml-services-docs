@@ -18,8 +18,8 @@
 There is also documentation of the format for providing "external"
 third party tags *to* Eluvio to be loaded into the content fabric.
 
-  * external tag format for video [API](format-external-video-tags.md)
-  * external tag format for image [API](format-external-image-tags.md)
+  * external tag format for video [format](format-external-video-tags.md)
+  * external tag format for image [format](format-external-image-tags.md)
 
 ### Sample code
 
