@@ -1,33 +1,29 @@
-## Eluvio ML Services
-
-This repository documents publically available endpoints and contains
-sample code for Eluvio's ML services, as well as providing data
-interchange formats.
+## Eluvio ML Services (Search / Summary)
 
 ### APIs
 
 #### Video
 
-  * retrieve video tag data [API](docs/api-video-tags.md)
-  * search video tag data [API](docs/api-search-video.md)
+  * retrieve video tag data [API](api-video-tags.md)
+  * search video tag data [API](api-search-video.md)
 
 #### Image
 
-  * search image tag data [API](docs/api-search-asset.md)
-  * retrieve image tag data [API](docs/api-image-tags.md)
-  * summarize an image [API](docs/api-summarize-image.md)
+  * search image tag data [API](api-search-asset.md)
+  * retrieve image tag data [API](api-image-tags.md)
+  * summarize an image [API](api-summarize-image.md)
 
 #### External tag format
 
 There is also documentation of the format for providing "external"
 third party tags *to* Eluvio to be loaded into the content fabric.
 
-  * external tag format for video [API](docs/format-external-video-tags.md)
-  * external tag format for image [API](docs/format-external-image-tags.md)
+  * external tag format for video [API](format-external-video-tags.md)
+  * external tag format for image [API](format-external-image-tags.md)
 
 ### Sample code
 
-See sample code [README.md](sample/README.md) for sample code.
+See sample code [README.md](/sample/README.md) for sample code.
 
 ### Brief note about general concepts
 
