@@ -14,5 +14,5 @@ interchange formats.
 
 ### Tag Interchange File
 
-[docs](docs/README.md)
+[docs](docs/README.md#external-tag-format)
 
