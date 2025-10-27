@@ -11,7 +11,15 @@
 ##### Via qfab_cli/auth
 - `export FABRIC_AUTH=$(qfab_cli content token create iq__5UkLrg9mLp2EgVQokPbtuqrmeFL --config elv-config.json | jq -r '.bearer')`
 
+##### Python setup
+`conda create -n tagstore python=3.10 -y && conda activate tagstore`
+`pip install -r tagstore/examples/redbull/requirements.txt`
+
 #### Redbull
+
+##### Python streaming example
+
+`python tagstore/examples/redbull/streaming_example.py`
 
 ##### Python
 
