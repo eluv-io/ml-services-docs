@@ -27,8 +27,8 @@ def main():
               f"{BASE_URL}/{qid}/tags",
               params={"start": 10, "limit": 10})
 
-    run_query("list jobs to discover tracks",
-              f"{BASE_URL}/{qid}/jobs")
+    run_query("list batches to discover tracks",
+              f"{BASE_URL}/{qid}/batches")
 
     run_query("query by track (toprocks)",
               f"{BASE_URL}/{qid}/tags",

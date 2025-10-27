@@ -47,8 +47,8 @@ async function main() {
   await runQuery("with custom pagination",
     `${BASE_URL}/${qid}/tags`,
     { start: 10, limit: 10 });
-  await runQuery("list jobs to discover tracks",
-    `${BASE_URL}/${qid}/jobs`);
+  await runQuery("list batches to discover tracks",
+    `${BASE_URL}/${qid}/batches`);
   await runQuery("query by track (toprocks)",
     `${BASE_URL}/${qid}/tags`,
     { track: "toprocks" });

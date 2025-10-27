@@ -6,7 +6,7 @@ import time
 from sseclient import SSEClient
 
 BASE_URL = "https://ai.contentfabric.io/tagstore"
-AUTH_TOKEN = ""
+AUTH_TOKEN = os.getenv('FABRIC_AUTH')
 qid = "iq__5UkLrg9mLp2EgVQokPbtuqrmeFL"
 
 created_batch_id = None
