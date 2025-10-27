@@ -3,6 +3,7 @@ import json
 import sys
 import threading
 import time
+import os
 from sseclient import SSEClient
 
 BASE_URL = "https://ai.contentfabric.io/tagstore"
@@ -81,15 +82,11 @@ def cleanup():
     """Delete all created tags and batch"""
     print("\n\n=== Cleaning up ===")
     
-    headers = {}
-    if AUTH_TOKEN:
-        headers["Authorization"] = AUTH_TOKEN
-    
     # Delete batch
     if created_batch_id:
         try:
             url = f"{BASE_URL}/{qid}/batches/{created_batch_id}?authorization={AUTH_TOKEN}"
-            response = requests.delete(url, headers=headers)
+            response = requests.delete(url)
             if response.status_code in [200, 204]:
                 print(f"Deleted batch: {created_batch_id}")
         except Exception as e:
